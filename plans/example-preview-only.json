@@ -1,0 +1,19 @@
+{
+  "dimension": "minecraft:overworld",
+  "operations": [
+    {
+      "from": [
+        0,
+        64,
+        0
+      ],
+      "to": [
+        2,
+        66,
+        2
+      ],
+      "block": "minecraft:stone",
+      "hollow": true
+    }
+  ]
+}

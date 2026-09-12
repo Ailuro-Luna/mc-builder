@@ -1,0 +1,58 @@
+{
+  "server_root": "/path/to/minecraft-server",
+  "shared_root": "/path/to/minecraft-server/world/scripts/shared/mc_builder",
+  "allow_write": false,
+  "approved_area": null,
+  "max_extent": 32,
+  "max_blocks": 10000,
+  "snapshot_margin": 2,
+  "max_snapshot_blocks": 50000,
+  "batch_size": 20,
+  "interval_ticks": 4,
+  "pause_mspt": 45,
+  "materials": [
+    "minecraft:black_concrete",
+    "minecraft:blue_wool",
+    "minecraft:bricks",
+    "minecraft:chain",
+    "minecraft:cobblestone",
+    "minecraft:cyan_wool",
+    "minecraft:dark_oak_planks",
+    "minecraft:dark_oak_stairs",
+    "minecraft:glass",
+    "minecraft:gray_concrete",
+    "minecraft:iron_block",
+    "minecraft:light_gray_wool",
+    "minecraft:oak_planks",
+    "minecraft:polished_andesite",
+    "minecraft:sea_lantern",
+    "minecraft:spruce_planks",
+    "minecraft:stone",
+    "minecraft:stone_brick_stairs",
+    "minecraft:stone_bricks",
+    "minecraft:waxed_cut_copper",
+    "minecraft:white_concrete",
+    "minecraft:white_wool"
+  ],
+  "allow_source_water": false,
+  "protected_columns": {},
+  "allow_replace_blocks": [],
+  "dimensions": {
+    "minecraft:overworld": {
+      "enabled": true,
+      "min_y": -64,
+      "max_y": 319
+    },
+    "minecraft:the_nether": {
+      "enabled": false,
+      "min_y": 0,
+      "max_y": 255
+    },
+    "minecraft:the_end": {
+      "enabled": true,
+      "min_y": 0,
+      "max_y": 255
+    }
+  },
+  "protected_columns_by_dimension": {}
+}
